@@ -1,0 +1,239 @@
+body{
+    background-color: rgb(32, 31, 31);
+    color: antiquewhite;
+    justify-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.navbar{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    padding: 5px;
+}
+.presentation{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    padding: 5px;
+}
+.aboutme{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+a{
+    color: antiquewhite;
+    text-decoration: underline;
+}
+.photo{
+    background:url(Photo\ CV.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 30%;
+}
+
+.hr{
+    background-color: antiquewhite;
+    height: 1px;
+    width:100%;
+    margin-top: 30px;
+}
+.skills{
+    width: 100%;
+    height: 20px;
+    padding-top: 30px;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.project{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    font-size: small;
+    padding: 5px;
+}
+
+.content{
+    font-size:x-large
+}
+
+.projects{
+    width: 100%;
+    height: 600px;
+    margin-top: 20px;
+    padding: 5px;
+    display: grid;
+    grid-template-rows:repeat(6,1fr);
+    grid-template-columns:repeat(2,1fr);
+    grid-template-areas:
+    "project1 project2"
+    "legend1 legend2"
+    "project3 project4"
+    "legend3 legend4"
+    "project5 project6"
+    "legend5 legend6"
+    ;
+    gap:5px;
+}
+
+.project1{
+    background-color: blue;
+    height:100%;
+    grid-area: project1;
+    background:url(Project1.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+
+}
+.project2{
+    height: 100%;
+    grid-area: project2;
+    background:url(Project2.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+
+}
+.project3{
+    height: 100%;
+    grid-area: project3;
+    background:url(project3.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+
+}
+.project4{
+    height: 100%;
+    grid-area: project4;
+    background:url(project4.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+.project5{
+    height: 100%;
+    grid-area: project5;
+    background:url(project5.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+.project6{
+    height: 100%;
+    grid-area: project6;
+    background:url(project6.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+.legend1{
+    grid-area: legend1;
+    font-size:small;
+}
+.legend2{
+    grid-area: legend2;
+    font-size:small;
+
+}
+.legend3{
+    grid-area: legend3;
+    font-size:small;
+
+}
+.legend4{
+    grid-area: legend4;
+    font-size:small;
+
+}
+
+.legend5{
+    grid-area: legend5;
+    font-size:small;
+
+}
+.legend6{
+    grid-area: legend6;
+    font-size:small;
+
+}
+
+.contactme{
+    background-color: rgb(61, 61, 61);
+    width: 100%;
+    height:300px;
+    display: flex;
+}
+
+.contact{
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+}
+
+.form{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 5px;
+}
+p{
+    font-size:small;
+}
+label{
+    padding-top: 5px;
+    font-size:small;
+
+}
+input{
+    background-color: rgb(61, 61, 61);
+    border:none;
+
+    border-bottom: solid white 2px;
+
+    
+}
+
+textarea{
+    background-color: rgb(61, 61, 61);
+    border:none;
+    border-bottom: solid white 2px;
+}
+button{
+    color: white;
+    background-color: rgb(61, 61, 61);
+    border:none;
+    border-bottom: solid rgb(5, 98, 5) 2px;
+    justify-content: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
